@@ -4,8 +4,9 @@ package com.example.leetcodeproblems.solution
  * Search Insert Position
  * Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
  */
-class Solution35 {
-    fun execute(nums: IntArray, target: Int): Int {
+class Solution35(private val nums: IntArray, private val target: Int) : Solution<Int> {
+
+    override fun execute(): Int {
         if (nums.isEmpty()) return 0
         val firstItemInArray = nums[0]
         if (target <= firstItemInArray) return 0
