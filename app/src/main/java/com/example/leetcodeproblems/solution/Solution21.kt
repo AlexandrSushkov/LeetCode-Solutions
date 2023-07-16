@@ -1,5 +1,7 @@
 package com.example.leetcodeproblems.solution
 
+import com.example.leetcodeproblems.solution.utils.ListNode
+
 class Solution21(private val list1: ListNode?, private val list2: ListNode?) : Solution<ListNode?> {
 
     override fun execute(): ListNode? {
@@ -55,8 +57,4 @@ class Solution21(private val list1: ListNode?, private val list2: ListNode?) : S
 
         return resultHead
     }
-}
-
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
 }
