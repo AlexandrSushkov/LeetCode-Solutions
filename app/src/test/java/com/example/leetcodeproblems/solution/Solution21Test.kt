@@ -1,5 +1,8 @@
 package com.example.leetcodeproblems.solution
 
+import com.example.leetcodeproblems.solution.utils.ListNode
+import com.example.leetcodeproblems.solution.utils.toList
+import com.example.leetcodeproblems.solution.utils.toListNode
 import org.junit.Test
 import org.junit.Assert.assertEquals
 
@@ -16,29 +19,4 @@ class Solution21Test {
 
         assertEquals(expectedResult, result.toList())
     }
-
-    private fun List<Int>.toListNode(): ListNode? {
-        var head: ListNode? = null
-        var tail: ListNode? = null
-        this.forEach {
-            if (head == null) {
-                head = ListNode(it)
-                tail = head
-            } else {
-                tail?.next = ListNode(it)
-                tail = tail?.next
-            }
-        }
-        return head
-    }
-}
-
-private fun ListNode?.toList(): Any {
-    val result = mutableListOf<Int>()
-    var head = this
-    while (head != null) {
-        result.add(head.`val`)
-        head = head.next
-    }
-    return result
 }
