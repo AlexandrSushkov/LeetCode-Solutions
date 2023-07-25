@@ -57,4 +57,26 @@ class Solution21(private val list1: ListNode?, private val list2: ListNode?) : S
 
         return resultHead
     }
+
+    private fun v2(): ListNode?{
+        var l1 = list1
+        var l2 = list2
+        val head = ListNode(-1)
+        var tail = head
+
+        while (l1 != null && l2 != null) {
+            if (l1.`val` < l2.`val`) {
+                tail.next = l1
+                l1 = l1.next
+            } else {
+                tail.next = l2
+                l2 = l2.next
+            }
+            tail = tail.next!!
+        }
+
+        tail.next = l1 ?: l2
+        return head.next
+
+    }
 }
