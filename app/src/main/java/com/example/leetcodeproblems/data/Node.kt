@@ -1,4 +1,4 @@
-package com.example.leetcodeproblems.solution.utils
+package com.example.leetcodeproblems.data
 
 class Node(var `val`: Int) {
     var next: Node? = null

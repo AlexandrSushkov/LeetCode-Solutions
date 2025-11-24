@@ -1,6 +1,6 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.TreeNode
+import com.example.leetcodeproblems.data.TreeNode
 
 /**
  * Example:

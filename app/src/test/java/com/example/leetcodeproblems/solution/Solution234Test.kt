@@ -1,6 +1,6 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.toListNode
+import com.example.leetcodeproblems.utils.toListNode
 import junit.framework.TestCase.assertTrue
 import org.junit.Test
 

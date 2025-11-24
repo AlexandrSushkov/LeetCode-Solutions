@@ -1,6 +1,6 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.Node
+import com.example.leetcodeproblems.data.Node
 
 class Solution138(private val node: Node?) : Solution<Node?> {
     private val originalListHashSet = mutableSetOf<Node>()

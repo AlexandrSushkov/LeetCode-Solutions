@@ -1,6 +1,6 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.ListNode
+import com.example.leetcodeproblems.data.ListNode
 
 class Solution2(private val l1: ListNode?, private val l2: ListNode?) : Solution<ListNode?> {
 

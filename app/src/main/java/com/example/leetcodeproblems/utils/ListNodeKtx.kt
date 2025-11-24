@@ -1,4 +1,6 @@
-package com.example.leetcodeproblems.solution.utils
+package com.example.leetcodeproblems.utils
+
+import com.example.leetcodeproblems.data.ListNode
 
 fun List<Int>.toListNode(): ListNode? {
     var head: ListNode? = null

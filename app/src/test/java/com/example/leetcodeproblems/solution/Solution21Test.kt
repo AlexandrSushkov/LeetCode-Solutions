@@ -1,8 +1,7 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.ListNode
-import com.example.leetcodeproblems.solution.utils.toList
-import com.example.leetcodeproblems.solution.utils.toListNode
+import com.example.leetcodeproblems.utils.toList
+import com.example.leetcodeproblems.utils.toListNode
 import org.junit.Test
 import org.junit.Assert.assertEquals
 

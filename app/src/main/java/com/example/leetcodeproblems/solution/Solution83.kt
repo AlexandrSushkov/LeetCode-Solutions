@@ -1,6 +1,6 @@
 package com.example.leetcodeproblems.solution
 
-import com.example.leetcodeproblems.solution.utils.ListNode
+import com.example.leetcodeproblems.data.ListNode
 
 /**
  * Given the head of a sorted linked list, delete all duplicates such that each element appears only once.
