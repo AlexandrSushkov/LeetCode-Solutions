@@ -1,7 +1,7 @@
 package com.example.leetcodeproblems.solution
 
 /**
- * [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+ * [Problem 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
  *
  * Given an integer x, return true if x is a palindrome, and false otherwise.
  *

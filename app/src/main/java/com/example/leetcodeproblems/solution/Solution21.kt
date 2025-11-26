@@ -3,7 +3,7 @@ package com.example.leetcodeproblems.solution
 import com.example.leetcodeproblems.data.ListNode
 
 /**
- * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+ * [Problem 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
  *
  * You are given the heads of two sorted linked lists list1 and list2.
  * Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
