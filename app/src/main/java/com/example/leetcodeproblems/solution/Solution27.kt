@@ -38,12 +38,15 @@ class Solution27(private val nums: IntArray, private val `val`: Int): Solution<I
      */
     override fun execute(): Int {
         if (nums.isEmpty()) return 0
+        // index of an item next to non-val number
         var insertIndex = 0
         for (i in nums.indices) {
             if (nums[i] != `val`) {
+                // put it into insertIndex position
                 nums[insertIndex] = nums[i]
                 insertIndex++
             }
+            // if item == val skip it. it will be overridden by non-val number in future.
         }
         return insertIndex
     }
